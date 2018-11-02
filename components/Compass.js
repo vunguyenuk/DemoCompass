@@ -38,7 +38,7 @@ export default class Compass extends Component {
         <View style={styles.imageContainer}>
           <Image
             resizeMode="contain"
-            source={require('../assets/compass.png')}
+            source={require('../assets/compass-bg-2.png')}
             style={{
               width: deviceWidth - 10,
               height: deviceHeight / 2 - 10,
@@ -51,7 +51,7 @@ export default class Compass extends Component {
         <View style={styles.arrowContainer}>
           <Image
             resizeMode="contain"
-            source={require('../assets/arrow.png')}
+            source={require('../assets/compass-arrow.png')}
             style={styles.arrow}
           />
         </View>
@@ -84,10 +84,10 @@ const styles = StyleSheet.create({
     ...StyleSheet.absoluteFillObject
   },
   arrow: {
-    width: deviceWidth / 7,
-    height: deviceWidth / 7,
-    left: deviceWidth / 2 - deviceWidth / 7 / 2,
-    top: deviceHeight / 2 - deviceWidth / 7 / 2,
+    width: deviceWidth / 3,
+    height: deviceWidth / 3,
+    left: deviceWidth / 2 - deviceWidth / 3 / 2, 
+    top: deviceHeight / 2 - deviceWidth / 3 / 2,
     opacity: 0.9
   }
 });
