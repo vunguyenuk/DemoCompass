@@ -1,2 +1,2 @@
 # react-native-compass
-![](https://giphy.com/gifs/ywl1GisrPC9iLW9kqN)
+![](https://media.giphy.com/media/2sbLUFHlnT46LBoS0l/giphy.gif)
